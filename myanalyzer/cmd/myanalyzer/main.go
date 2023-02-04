@@ -1,9 +1,13 @@
 package main
 
 import (
+	"fmt"
 	"myanalyzer"
 
 	"golang.org/x/tools/go/analysis/unitchecker"
 )
 
-func main() { unitchecker.Main(myanalyzer.Analyzer) }
+func main() {
+	fmt.Println("Start")
+	unitchecker.Main(myanalyzer.Analyzer)
+}
