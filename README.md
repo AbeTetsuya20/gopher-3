@@ -1,14 +1,18 @@
-# 実行ログ
 
-skeleton をインストールします。
+# About this linter
 
-```shell
-go install github.com/gostaticanalysis/skeleton/v2@latest
-```
+This linter is a linter that outputs a warning when a function has 5 or more arguments.
 
-skeleton を実行します。
 
-```shell
-skeleton myanalyzer
-```
+# article
 
+More information can be found in the following article.
+Please take a look.
+https://zenn.dev/abetetsu/articles/706da691a59326
+
+# SpecialThanks
+
+I created this linter after attending the Gopher塾#3 lecture.
+I would like to express my thanks to tenntenn for the lecture!
+
+https://tenntenn.connpass.com/event/271533/
